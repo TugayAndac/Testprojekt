@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Papierkorb</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body onload="loadTrashArray(); renderTrash();">
+    <div class="ato">
+      <div class="ato-leftside">
+        <h1>Papierkorb</h1>
+        <img src="images/keep_2020q4_48dp.png" alt="keeplogo" height="40px" />
+        <img class="icons" src="images/auffuhren.png" alt="liste" />
+      </div>
+      <div class="searchbar">
+        <input type="text" placeholder="Suchen" />
+      </div>
+      <div class="ato-rightside">
+        <a class="trash-text" href="index.html">Notizen</a>
+        <img
+          src="images/die-einstellungen.png"
+          alt="einstellungen"
+          height="24px"
+        />
+        <img class="icons" src="images/buchstabe-t.png" alt="" />
+      </div>
+    </div>
+
+    <div id="trashnotes">
+        
+    </div>
+  </body>
+</html>
